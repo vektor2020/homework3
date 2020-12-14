@@ -1,9 +1,10 @@
 var age = prompt('Введите свой возраст');
-if ((age >= 11 && age <= 14)||(age >= 111 && age <= 114)) {
+var age100 = age % 100;
+if (age100 >= 5 && age100 <= 20) {
     alert(age + ' лет');
 } else {
-var ageWord = age % 10;
-switch (ageWord) {
+var age10 = age100 % 10;
+switch (age10) {
     case 1:
         alert(age + ' год');
         break;

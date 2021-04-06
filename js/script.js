@@ -25,4 +25,4 @@ if (isNaN(age)){
                     break;
             } 
     }
-}
+};
